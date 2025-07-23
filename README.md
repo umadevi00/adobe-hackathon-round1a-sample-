@@ -15,15 +15,17 @@ pdf_extractor/
 ├── Dockerfile
 ├── extractor.py
 ├── requirements.txt
-├── input/ # put your PDFs here
-├── output/ # JSON outputs appear here
+├── input/                # put your PDFs here
+├── output/               # JSON outputs appear here
 ├── README.md
 ├── approach_explanation.md
-├── test_runtime.py # optional: measures runtime
+├── test_runtime.py       # optional: measures runtime
+
 
 ## 🚀 How to Run
 
 ### 📄 Build Docker Image:
 ```bash
 docker build --platform linux/amd64 -t pdf_extractor:001 .
-## 📄 Run the Extractor:
+
+
