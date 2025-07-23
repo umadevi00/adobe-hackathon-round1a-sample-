@@ -21,10 +21,9 @@ Extract a structured outline (Title, H1, H2, H3 with page numbers) from a PDF (�
 ├── approach_explanation.md
 ├── test_runtime.py # optional: measures runtime 
 
+
 ## 🚀 How to Run
 
 ### 📄 Build Docker Image:
 ```bash
 docker build --platform linux/amd64 -t pdf_extractor:001 .
-
-
