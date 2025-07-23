@@ -17,8 +17,7 @@ Extract a structured outline (Title, H1, H2, H3 with page numbers) from a PDF (�
 
 ## 📂 Folder Structure
 
-```
-pdf\_extractor/
+```pdf\_extractor/
 ├── Dockerfile
 ├── extractor.py
 ├── requirements.txt
@@ -27,7 +26,7 @@ pdf\_extractor/
 ├── README.md
 ├── approach\_explanation.md
 ├── test\_runtime.py       # optional: measures runtime
-````
+```
 
 ## 🚀 How to Run
 
