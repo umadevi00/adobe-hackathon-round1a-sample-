@@ -1,6 +1,4 @@
-Here is your **final, clean, properly formatted `README.md`** — copy–paste this directly into your file:
 
----
 
 ```markdown
 # Adobe Hackathon — Round 1A Submission
@@ -10,14 +8,16 @@ Extract a structured outline (Title, H1, H2, H3 with page numbers) from a PDF (�
 
 ## 🧰 Solution Overview
 - Python-based PDF outline extractor using **PyMuPDF**.
-- Wrapped in a lightweight Docker container.
-- Works offline (no internet required).
+- Packaged inside a lightweight Docker container for portability.
+- Works completely offline (no internet required).
 - Compatible with **amd64, CPU-only**, ≤ 200 MB.
 - Processes a 50-page PDF in ≤ 10 seconds.
 
 ## 📂 Folder Structure
 
-```pdf\_extractor/
+```
+
+pdf\_extractor/
 ├── Dockerfile
 ├── extractor.py
 ├── requirements.txt
@@ -26,7 +26,8 @@ Extract a structured outline (Title, H1, H2, H3 with page numbers) from a PDF (�
 ├── README.md
 ├── approach\_explanation.md
 ├── test\_runtime.py       # optional: measures runtime
-```
+
+````
 
 ## 🚀 How to Run
 
@@ -47,26 +48,51 @@ docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --networ
 python test_runtime.py
 ```
 
-## 📝 Notes
+---
 
-* Fully offline & meets all constraints.
-* No hardcoded headings or file-specific logic.
-* Works on PDFs of varying complexity.
-* Compatible with **amd64** architecture & runs on CPU only.
-* Model size & dependencies ≤ 200 MB.
-* Execution time ≤ 10 seconds for 50-page PDFs.
+## 📝 Libraries & Tools Used
+
+### 📚 Python Libraries
+
+* [PyMuPDF](https://pymupdf.readthedocs.io/) (`fitz`) — for reading PDF and extracting text + font information.
+* `os` — to work with file paths.
+* `json` — to output results in JSON.
+* `time`, `subprocess` — (in `test_runtime.py`) for measuring execution time.
+
+### 🐳 Tools
+
+* **Python 3.10**
+* **Docker** — to package the solution.
+
+  * Base image: `python:3.10-slim`
+  * No GPU, no internet, amd64 CPU-only, ≤ 200 MB.
 
 ---
 
-✅ **Included Files:**
+## ✅ Constraints Met
+
+* Runs within **≤ 10 seconds** for a 50-page PDF.
+* Works **offline** — no network calls.
+* Compatible with **amd64, CPU-only machines**.
+* Model/code size ≤ 200 MB.
+* No hardcoded headings or file-specific logic.
+* Extracts:
+  ✔ Title
+  ✔ Headings (H1, H2, H3)
+  ✔ Page numbers
+  ✔ Outputs valid JSON in the required format.
+
+---
+
+## 📋 Included Files
 
 * `Dockerfile` — defines container environment.
 * `extractor.py` — core extraction logic.
-* `requirements.txt` — dependencies.
-* `approach_explanation.md` — methodology.
-* `test_runtime.py` — optional, measures runtime.
+* `requirements.txt` — Python dependencies (`PyMuPDF`).
+* `approach_explanation.md` — explanation of methodology.
+* `test_runtime.py` — optional script to measure runtime.
 * `input/` — place PDFs here.
-* `output/` — find resulting JSONs here.
+* `output/` — resulting JSONs appear here.
 
 ---
 
@@ -74,16 +100,22 @@ python test_runtime.py
 
 For questions: \[your email or GitHub handle]
 
-```
-
 ---
 
-✅ This version:
-✨ Uses correct Markdown code blocks everywhere.  
-✨ Renders properly on GitHub.  
-✨ Includes all required sections & constraints.
+```
 
-📌 After pasting this into your `README.md`, save & commit it.  
-If you want, I can also draft your **approach_explanation.md** in the same way — just say:  
-> 📄 Send approach_explanation.md
+📌 This version clearly documents:
+✨ Tools
+✨ Libraries
+✨ Constraints
+✨ Folder structure
+✨ How to run
+✨ What is included
+
+If you’d also like me to draft your `approach_explanation.md` or the `Dockerfile` (with comments), just say:  
+> 📄 Send approach_explanation.md too!  
+or  
+> 🐳 Send Dockerfile with comments!  
+
+Happy hacking 🚀
 ```
