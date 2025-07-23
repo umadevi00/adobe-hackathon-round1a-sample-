@@ -19,7 +19,7 @@ Extract a structured outline (Title, H1, H2, H3 with page numbers) from a PDF (�
 ├── output/ # JSON outputs appear here
 ├── README.md
 ├── approach_explanation.md
-├── test_runtime.py # optional: measures runtime```
+├── test_runtime.py # optional: measures runtime 
 
 ## 🚀 How to Run
 
