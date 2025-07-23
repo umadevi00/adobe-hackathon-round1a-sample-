@@ -93,27 +93,3 @@ python test_runtime.py
 * `output/` — resulting JSONs appear here.
 
 ---
-
-### 📧 Contact
-
-For questions: \[your email or GitHub handle]
-
----
-
-```
-
-📌 This version clearly documents:
-✨ Tools
-✨ Libraries
-✨ Constraints
-✨ Folder structure
-✨ How to run
-✨ What is included
-
-If you’d also like me to draft your `approach_explanation.md` or the `Dockerfile` (with comments), just say:  
-> 📄 Send approach_explanation.md too!  
-or  
-> 🐳 Send Dockerfile with comments!  
-
-Happy hacking 🚀
-```
