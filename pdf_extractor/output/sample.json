@@ -1,0 +1,715 @@
+{
+  "title": "Machine Learning",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Machine Learning",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Contents",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Part I",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Supervised Learning",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "1",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Part II",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Generative Learning Algorithms",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "31",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Part III",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Kernel Methods",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "46",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Part IV",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Support Vector Machines",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "57",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Part V",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Deep Learning",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "75",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Part VI",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Regularization and Model Selection",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "98",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Part VII",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Unsupervised Learning",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "114",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Part VIII",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "The EM Algorithm",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "119",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Part IX",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Factor Analysis",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "133",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Part X",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Principal Components Analysis",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "142",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Part XI",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Independent Components Analysis",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "147",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Part XII",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Reinforcement Learning and Control",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "154",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Acknowledgments",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Part I:",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Supervised Learning",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "1",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Linear Regression",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "2",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "Classification and Logistic Regression",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "3",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "Generalized Linear Models",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "Part II:",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "Generative Learning Algorithms",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "4",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "Gaussian discriminant analysis",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "5",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "Naive Bayes",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "Part III:",
+      "page": 54
+    },
+    {
+      "level": "H2",
+      "text": "Kernel Methods",
+      "page": 54
+    },
+    {
+      "level": "H2",
+      "text": "6",
+      "page": 54
+    },
+    {
+      "level": "H2",
+      "text": "Kernel methods",
+      "page": 54
+    },
+    {
+      "level": "H2",
+      "text": "Part IV:",
+      "page": 65
+    },
+    {
+      "level": "H2",
+      "text": "Support Vector Machines",
+      "page": 65
+    },
+    {
+      "level": "H2",
+      "text": "7",
+      "page": 65
+    },
+    {
+      "level": "H2",
+      "text": "Support vector machines",
+      "page": 65
+    },
+    {
+      "level": "H2",
+      "text": "Part V:",
+      "page": 83
+    },
+    {
+      "level": "H2",
+      "text": "Deep Learning",
+      "page": 83
+    },
+    {
+      "level": "H2",
+      "text": "8",
+      "page": 83
+    },
+    {
+      "level": "H2",
+      "text": "Supervised Learning with Non-Linear Models",
+      "page": 83
+    },
+    {
+      "level": "H2",
+      "text": "9",
+      "page": 86
+    },
+    {
+      "level": "H2",
+      "text": "Neural Networks",
+      "page": 86
+    },
+    {
+      "level": "H2",
+      "text": "10",
+      "page": 95
+    },
+    {
+      "level": "H2",
+      "text": "Backpropagation",
+      "page": 95
+    },
+    {
+      "level": "H2",
+      "text": "11",
+      "page": 103
+    },
+    {
+      "level": "H2",
+      "text": "Vectorization Over Training Examples",
+      "page": 103
+    },
+    {
+      "level": "H2",
+      "text": "Part VI:",
+      "page": 106
+    },
+    {
+      "level": "H2",
+      "text": "Regularization and Model Selection",
+      "page": 106
+    },
+    {
+      "level": "H2",
+      "text": "12",
+      "page": 106
+    },
+    {
+      "level": "H2",
+      "text": "Cross validation",
+      "page": 106
+    },
+    {
+      "level": "H2",
+      "text": "13",
+      "page": 108
+    },
+    {
+      "level": "H2",
+      "text": "Feature Selection",
+      "page": 108
+    },
+    {
+      "level": "H2",
+      "text": "14",
+      "page": 111
+    },
+    {
+      "level": "H2",
+      "text": "Bayesian statistics and regularization",
+      "page": 111
+    },
+    {
+      "level": "H2",
+      "text": "15",
+      "page": 113
+    },
+    {
+      "level": "H2",
+      "text": "Some calculations from bias variance",
+      "page": 113
+    },
+    {
+      "level": "H2",
+      "text": "16",
+      "page": 116
+    },
+    {
+      "level": "H2",
+      "text": "Bias-variance and error analysis",
+      "page": 116
+    },
+    {
+      "level": "H2",
+      "text": "Part VII:",
+      "page": 122
+    },
+    {
+      "level": "H2",
+      "text": "Unsupervised Learning",
+      "page": 122
+    },
+    {
+      "level": "H2",
+      "text": "17",
+      "page": 122
+    },
+    {
+      "level": "H2",
+      "text": "The",
+      "page": 122
+    },
+    {
+      "level": "H2",
+      "text": "k",
+      "page": 122
+    },
+    {
+      "level": "H2",
+      "text": "-means Clustering Algorithm",
+      "page": 122
+    },
+    {
+      "level": "H2",
+      "text": "18",
+      "page": 123
+    },
+    {
+      "level": "H2",
+      "text": "Mixtures of Gaussians and the EM Algorithm",
+      "page": 123
+    },
+    {
+      "level": "H2",
+      "text": "Part VIII:",
+      "page": 127
+    },
+    {
+      "level": "H2",
+      "text": "The EM Algorithm",
+      "page": 127
+    },
+    {
+      "level": "H2",
+      "text": "19",
+      "page": 127
+    },
+    {
+      "level": "H2",
+      "text": "Jensen’s inequality",
+      "page": 127
+    },
+    {
+      "level": "H2",
+      "text": "20",
+      "page": 128
+    },
+    {
+      "level": "H2",
+      "text": "The EM algorithm",
+      "page": 128
+    },
+    {
+      "level": "H2",
+      "text": "21",
+      "page": 134
+    },
+    {
+      "level": "H2",
+      "text": "Mixture of Gaussians revisited",
+      "page": 134
+    },
+    {
+      "level": "H2",
+      "text": "22",
+      "page": 136
+    },
+    {
+      "level": "H2",
+      "text": "Variational inference and variational auto-encoder",
+      "page": 136
+    },
+    {
+      "level": "H2",
+      "text": "Part IX:",
+      "page": 141
+    },
+    {
+      "level": "H2",
+      "text": "Factor Analysis",
+      "page": 141
+    },
+    {
+      "level": "H2",
+      "text": "23",
+      "page": 142
+    },
+    {
+      "level": "H2",
+      "text": "Restrictions of",
+      "page": 142
+    },
+    {
+      "level": "H2",
+      "text": "Σ",
+      "page": 142
+    },
+    {
+      "level": "H2",
+      "text": "24",
+      "page": 143
+    },
+    {
+      "level": "H2",
+      "text": "Marginals and conditionals of Gaussians",
+      "page": 143
+    },
+    {
+      "level": "H2",
+      "text": "25",
+      "page": 144
+    },
+    {
+      "level": "H2",
+      "text": "The factor analysis model",
+      "page": 144
+    },
+    {
+      "level": "H2",
+      "text": "26",
+      "page": 146
+    },
+    {
+      "level": "H2",
+      "text": "EM for factor analysis",
+      "page": 146
+    },
+    {
+      "level": "H2",
+      "text": "Part X:",
+      "page": 150
+    },
+    {
+      "level": "H2",
+      "text": "Principal Components Analysis",
+      "page": 150
+    },
+    {
+      "level": "H2",
+      "text": "Part XI:",
+      "page": 155
+    },
+    {
+      "level": "H2",
+      "text": "Independent Components Analysis",
+      "page": 155
+    },
+    {
+      "level": "H2",
+      "text": "27",
+      "page": 156
+    },
+    {
+      "level": "H2",
+      "text": "ICA ambiguities",
+      "page": 156
+    },
+    {
+      "level": "H2",
+      "text": "28",
+      "page": 157
+    },
+    {
+      "level": "H2",
+      "text": "Densities and linear transformations",
+      "page": 157
+    },
+    {
+      "level": "H2",
+      "text": "29",
+      "page": 158
+    },
+    {
+      "level": "H2",
+      "text": "ICA algorithm",
+      "page": 158
+    },
+    {
+      "level": "H2",
+      "text": "Part XII:",
+      "page": 162
+    },
+    {
+      "level": "H2",
+      "text": "Reinforcement Learning and Control",
+      "page": 162
+    },
+    {
+      "level": "H2",
+      "text": "30",
+      "page": 163
+    },
+    {
+      "level": "H2",
+      "text": "Markov decision processes",
+      "page": 163
+    },
+    {
+      "level": "H2",
+      "text": "31",
+      "page": 166
+    },
+    {
+      "level": "H2",
+      "text": "Value iteration and policy iteration",
+      "page": 166
+    },
+    {
+      "level": "H2",
+      "text": "32",
+      "page": 168
+    },
+    {
+      "level": "H2",
+      "text": "Learning a model for an MDP",
+      "page": 168
+    },
+    {
+      "level": "H2",
+      "text": "33",
+      "page": 170
+    },
+    {
+      "level": "H2",
+      "text": "Continuous state MDPs",
+      "page": 170
+    },
+    {
+      "level": "H2",
+      "text": "34",
+      "page": 177
+    },
+    {
+      "level": "H2",
+      "text": "Connections between Policy and Value Iteration (Op-",
+      "page": 177
+    },
+    {
+      "level": "H2",
+      "text": "tional)",
+      "page": 177
+    },
+    {
+      "level": "H2",
+      "text": "35",
+      "page": 179
+    },
+    {
+      "level": "H2",
+      "text": "Derivations for Bellman Equations",
+      "page": 179
+    },
+    {
+      "level": "H2",
+      "text": "A",
+      "page": 180
+    },
+    {
+      "level": "H2",
+      "text": "Lagrange Multipliers",
+      "page": 180
+    },
+    {
+      "level": "H2",
+      "text": "B",
+      "page": 183
+    },
+    {
+      "level": "H2",
+      "text": "Boosting",
+      "page": 183
+    },
+    {
+      "level": "H2",
+      "text": "References",
+      "page": 192
+    }
+  ]
+}
