@@ -11,7 +11,7 @@ Extract a structured outline (Title, H1, H2, H3 with page numbers) from a PDF (�
 - Processes a 50-page PDF in ≤ 10 seconds.
 
 ## 📂 Folder Structure
-pdf_extractor/
+'''pdf_extractor/
 ├── Dockerfile
 ├── extractor.py
 ├── requirements.txt
@@ -19,7 +19,7 @@ pdf_extractor/
 ├── output/               # JSON outputs appear here
 ├── README.md
 ├── approach_explanation.md
-├── test_runtime.py       # optional: measures runtime
+├── test_runtime.py       # optional: measures runtime'''
 
 
 ## 🚀 How to Run
